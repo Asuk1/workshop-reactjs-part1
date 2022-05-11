@@ -14,9 +14,6 @@ const data = {
 
 
 let content = <img src={data.image} />;
-console.log(data.cardTitle);
-console.log(data.cardDescription);
-
 
 
 
@@ -25,12 +22,12 @@ console.log(data.cardDescription);
  * needed code to render the bootstrap card
  **/
  
-var content = <div class="card m-5">
-  <img class="card-img-top" src="..." alt="Card image cap" />
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+ content = <div className="card m-5">
+  <img className="card-img-top" src="../../.learn/assets/Dylan.png?raw=true" alt="Card image cap" />
+  <div className="card-body">
+    <h5 className="card-title">Bob Dylan</h5>
+    <p className="card-text">Bob Dylan (born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter, author, and artist who has been an influential figure in popular music and culture for more than five decades.</p>
+    <a href="#" class="btn btn-primary">Go to wikipedia</a>
   </div>
 </div>
 
